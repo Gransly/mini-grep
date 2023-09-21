@@ -9,7 +9,7 @@ fn main() {
     });
 
     println!("Searching querry is {}", config.query);
-    println!("File path is {}", config.file_path);
+    println!("File path is {} \n\n", config.file_path);
 
     if let Err(e ) = run(config) {
         println!("Application error {e}");
